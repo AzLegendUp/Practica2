@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url(/kitty-2.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body  {
+    height: 750px;
+    width: 750px;
+    background-color: blueviolet;
+    margin: auto;
+    margin-top: 700px;
+    margin-bottom: 20px;
+
+}
+
+header {
+    height: 250px;
+    width: 750px;
+    background-color: blue;
+}
+
+#banner {
+    width: 500px;
+    height: 250px;
+    background-color: red;
+    float: right;
+}
+
+#logo {
+    height: 125px;
+    background-color: beige;
+
+}
+
+#buscador {
+    background-color:  violet;
+    height: 125px;
+}
+
+.menu {
+    background-color: violet;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu ul li{
+    display: inline-block
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 15px;
+}
+
+.menu ul li a:hover {
+     background-color: #8d3a7d;
+}
+
+
+main {
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+#aside_left {
+    width: 150px;
+    height: 400px;
+    background-color: aquamarine;
+    float: left;
+}
+
+article {
+    width: 450px;
+    height: 400px;
+    background-color: blueviolet;
+    float: left;
+}
+
+#aside_right {
+    width: 100px;
+    height: 400px;
+    background-color: chocolate;
+    float: left;
+}
+footer{
+    height: 65px;
+    background-color: rgb(157, 43, 110);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+
+
+
+
